@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Component Library</title>
-</head>
+    <!-- CSS way 1: Style tag 
+        <style>
+        body {
+            color: red;
+        }
+    </style>  -->
 
-<body>
-    <h1>Shubhsardana's component library</h1>
+    <!-- Third way of doing CSS: external link-->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 id="lib-header">Shubhsardana's component library</h1>
+    <!-- CSS way 2-->
+    <!--<h2 style="color: red"> -->
     <div class="something">Shubh Sardana</div>
-    <p>
-        I am attending neog.camp and I want to make a library which would make all
-        my projects look good and consistent.
+    <p class="para">
+      I am attending neog.camp and I want to make a library which would make all
+      my projects look good and consistent.
     </p>
 
     <hr />
@@ -22,8 +32,8 @@
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
     <p>
-        Let me show you the normal text. This is free flowing and will wrap at the
-        end like a paragraph
+      Let me show you the normal text. This is free flowing and will wrap at the
+      end like a paragraph
     </p>
     <small>This is relatively smaller text</small>
     <hr />
@@ -31,13 +41,13 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>
-        This is a fluid container and it will go till the end of the page.
+    <div class="para">
+      This is a fluid container and it will go till the end of the page.
     </div>
 
     <h3>center container</h3>
-    <div>
-        This is a centered container and it will go till the specified width.
+    <div class="para">
+      This is a centered container and it will go till the specified width.
     </div>
 
     <hr />
@@ -54,25 +64,25 @@
     <h3>unordered lists</h3>
 
     <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
     </ul>
 
     <h3>unordered Inline lists</h3>
 
     <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+      <li>Inline Item One</li>
+      <li>Inline Item Two</li>
+      <li>Inline Item Three</li>
     </ul>
 
     <h3>reverse ordered lists</h3>
 
     <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
+      <li>milk</li>
+      <li>eggs</li>
+      <li>bread</li>
     </ol>
 
     <hr />
@@ -80,18 +90,18 @@
     <h2>@nav</h2>
 
     <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
-            </li>
-            <li>
-                <a href="/">products</a>
-            </li>
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
+      <div>iAmBrand</div>
+      <ul>
+        <li>
+          <a href="/">home</a>
+        </li>
+        <li>
+          <a href="/">products</a>
+        </li>
+        <li>
+          <a href="/">about</a>
+        </li>
+      </ul>
     </nav>
 
     <hr />
@@ -99,33 +109,32 @@
     <h2>header</h2>
 
     <header>
-        <img src="images/hero.svg" />
-        <h1>heading inside header</h1>
+      <img src="images/hero.svg" />
+      <h1>heading inside header</h1>
     </header>
 
     <hr />
 
     <h2>@section</h2>
     <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+      <h3>white section</h3>
+      <p class="para">This will have white background</p>
     </section>
     <section>
-        <h3>off-white section</h3>
-        <p>This will have grey background</p>
+      <h3>off-white section</h3>
+      <p class="para">This will have grey background</p>
     </section>
     <hr />
     <h2>@footer</h2>
     <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
-        </ul>
+      <div>Some small heading inside footer</div>
+      <ul>
+        <li>socialone</li>
+        <li>socialtwo</li>
+        <li>socialthree</li>
+      </ul>
     </footer>
 
     <!-- <div style="height: 30vh"></div> -->
-</body>
-
+  </body>
 </html>
