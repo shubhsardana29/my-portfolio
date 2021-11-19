@@ -3,25 +3,25 @@
 :root {
     --primary-color: #7C3AED;
     --dark-gray: #6B7280;
-
+    --off-white: #F3F4F6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-hr{
-    margin: 
-    2rem 0rem;
+hr {
+    margin:
+        2rem 0rem;
 }
 
 /* container */
-.fluid-container{
+.fluid-container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.center-container{
+.center-container {
     max-width: 600px;
     margin: auto;
 }
@@ -42,7 +42,7 @@ hr{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    
+
 
 }
 
@@ -82,7 +82,7 @@ hr{
  */
 
 .nav-pills {
-    text-align: right;  
+    text-align: right;
 }
 
 .nav-brand {
@@ -91,7 +91,7 @@ hr{
 }
 
 .nav-link-active {
-    font-weight: bold ;
+    font-weight: bold;
 }
 
 /** header **/
@@ -103,9 +103,21 @@ hr{
     color: var(--dark-gray)
 }
 
- .hero-img {
+.hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
+/** SECTION **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+.ow {
+    background-color: var(--off-white)
+}
