@@ -16,6 +16,11 @@ hr {
         2rem 0rem;
 }
 
+/** spaces **/
+.margin-md {
+    margin: rem 0rem;
+}
+
 /* container */
 .fluid-container {
     padding-left: 1rem;
@@ -29,8 +34,11 @@ hr {
 
 /* links */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -97,6 +105,10 @@ hr {
 }
 
 /** header **/
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
 
 .hero-heading {
     padding: 2rem;
@@ -139,4 +151,9 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer-header {
+    font-weight: bold;
+    font-size: large;
 }
