@@ -139,6 +139,11 @@ hr {
     background-color: var(--off-white)
 }
 
+#btn:hover {
+    font-size: large;
+    color: black;
+}
+
 /** footer **/
 
 .footer {
