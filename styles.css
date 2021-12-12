@@ -104,6 +104,9 @@ hr {
     font-weight: bold;
 }
 
+.navigation-container .nav-pills :hover {
+    color: black;
+}
 /** header **/
 .hero {
     padding: 2rem;
