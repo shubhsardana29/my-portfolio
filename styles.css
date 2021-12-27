@@ -180,7 +180,7 @@ hr {
     font-size: 3em;
     color: rgb(0, 0, 0);
     position: relative;
-    transition: box-shadow .4s, color .8s, transform .4s;
+    transition: box-shadow .4s, color .8s, transform .01s;
     display: inline;
     box-sizing: border-box;
 }
