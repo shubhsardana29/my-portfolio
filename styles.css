@@ -178,11 +178,11 @@ hr {
     align-items: center;
     text-decoration: none;
     font-size: 2em;
-    color: rgba(255, 255, 255, 0.336);
+    color: rgba(66, 8, 8, 0.336);
     position: relative;
     transition: box-shadow .4s, color .8s, transform .4s;
+    display: inline;
 }
-
 .card:hover {
     color: #ffffff;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
