@@ -166,29 +166,30 @@ hr {
     font-size: large;
 }
 .card {
-    width: 50px;
-    height: 50px;
-    background: rgba(255, 255, 255, 0.144);
-    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    background: rgba(170, 162, 168, 0.918);
+    border-radius: 20px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
-        inset 0 20px 20px rgba(253, 253, 253, 0.205);
+        inset 0 20px 20px rgba(255, 255, 255, 0.966);
     margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 2em;
-    color: rgba(66, 8, 8, 0.336);
+    font-size: 3em;
+    color: rgb(0, 0, 0);
     position: relative;
     transition: box-shadow .4s, color .8s, transform .4s;
     display: inline;
+    box-sizing: border-box;
 }
 .card:hover {
     color: #ffffff;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
+    box-shadow: 0 20px 20px rgba(255, 255, 255, 0.205),
         inset 0 20px 10px rgba(255, 255, 255, 0.287),
         inset 10px 0 20px rgb(255, 58, 58),
         inset -20px 0 20px rgb(104, 255, 58),
         inset -30px 0 20px rgb(71, 58, 255);
-    transform: translateY(-10px);
+    transform: translate(-10px);
 }
