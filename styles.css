@@ -182,7 +182,7 @@ hr {
 }
 .card:hover {
     color: #ffffff;
-    transform: translateY(-10px);
+    transform: translateX(-10px);
 }
 .social-links {
     display: inline-block;
