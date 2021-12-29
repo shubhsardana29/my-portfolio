@@ -184,3 +184,7 @@ hr {
     color: #ffffff;
     transform: translateY(-10px);
 }
+.social-links {
+    display: inline-block;
+    align-items: center;
+}
