@@ -170,9 +170,7 @@ hr {
     height: 20px;
     background: var(--primary-color);
     border-radius: 20px;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
-        inset 0 20px 20px var(--primary-color);
-    margin: 15px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,16 +178,9 @@ hr {
     font-size: 3em;
     color: rgb(0, 0, 0);
     position: relative;
-    transition: box-shadow .4s, color .8s, transform .01s;
-    /* display: inline; */
-    box-sizing: border-box;
+    transition: color .8s, transform .01s;
 }
 .card:hover {
     color: #ffffff;
-    /* box-shadow: 0 20px 20px rgba(255, 255, 255, 0.205),
-        inset 0 20px 10px rgba(31, 0, 116, 0.287),
-        inset 10px 0 20px rgb(255, 58, 58),
-        inset -20px 0 20px rgb(104, 255, 58),
-        inset -30px 0 20px rgb(71, 58, 255); */
     transform: translateY(-10px);
 }
