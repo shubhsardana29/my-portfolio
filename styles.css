@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
-    --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+    --primary-color: #fca5a5;
+    --dark-gray: #fecaca;
+    --off-white: #fef2f2
+    ;
 }
 
 body {
@@ -150,7 +151,7 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: #fef2f2;
     border-top-right-radius: 1rem ;
 }
 .footer .link {
